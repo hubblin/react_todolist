@@ -1,4 +1,4 @@
-#리액트로 만든 todo-list app입니다.
+# 리액트로 만든 todo-list app입니다.
 
 # Getting Started with Create React App
 
