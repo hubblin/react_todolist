@@ -1,12 +1,18 @@
 .TodoListItem{
-    padding: 1rem;
     display: flex;
     align-items: center;
+    border-radius: 6px;
 }
+
 
 .TodoListItem:nth-child(even){
     background-color: #f8f9fa;
 }
+
+.TodoListItem:hover{
+    background-color: #c5c9cc;
+}
+
 
 .TodoListItem + .TodoListItem{
     border-top: 1px solid #dee2e6;
@@ -17,6 +23,7 @@
     flex :1;
     align-items: center;
     display: flex;
+    padding: 1rem;
 }
 
 .TodoListItem > .checkbox > .ch{
@@ -46,6 +53,7 @@
     cursor: pointer;
     color: #ff6b6b;
     font-size: 1.5rem;
+    padding: 1rem;
 }
 
 .TodoListItem > .remove:hover{
